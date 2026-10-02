@@ -111,3 +111,15 @@ temp/
 # Manus version file (auto-generated, not part of source)
 client/public/__manus__/version.json
 .project-config.json
+
+# Local database
+data/*.db
+data/*.db-*
+data/*.backup
+
+# User uploads
+uploads/*
+!uploads/.gitkeep
+
+# Temporary development files
+scratch/
